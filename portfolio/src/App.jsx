@@ -1,19 +1,22 @@
 import './app.scss'
 import { useState } from 'react'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
 
   return (
     <>
       <div> 
-      <section>Hero</section>
-      <section>Parallax</section>
+      <section id="Homepage">
+        <Navbar/>
+      </section>
+      <section id="Service">Parallax</section>
       <section>Services</section>
-      <section>Parallax</section>
+      <section id ="Portfolio">Parallax</section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>
-      <section>Contact</section>
+      <section id="Contact">Contact</section>
       </div>
     </>
   )
