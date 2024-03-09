@@ -20,7 +20,6 @@ const Navbar = () => {
                 <a href="#"><img src="/dribbble.png" alt="dribble" /></a>
             </div>
         </div>
-      Navbar
     </div>
   )
 }
