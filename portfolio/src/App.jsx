@@ -4,11 +4,15 @@ import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import Parallax from './components/parallex/Parallax'
 import Services from './components/services/Services'
+import Portfolio from './components/portfolio/Portfolio'
+import Contact from './components/contact/Contact'
+import Cursor from './components/cursor/Cursor'
 function App() {
 
   return (
     <>
       <div> 
+      <Cursor/>
       <section id="Homepage">
         <Navbar/>
         <Hero/>
@@ -16,10 +20,12 @@ function App() {
       <section id="Service"> <Parallax type="services"/>  </section>
       <section><Services/></section>
       <section id ="Portfolio"><Parallax type ="portfolio"/></section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
-      <section id="Contact">Contact</section>
+      <section id='Contact'>
+        <Contact/>
+      </section>
+      <section>
+        <Portfolio/>
+      </section>
       </div>
     </>
   )
