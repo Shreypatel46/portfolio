@@ -10,13 +10,7 @@
         display: flex;
         align-items: center;
         gap: 20px;
-
-        @include mobile {
-            align-self: center;
-            text-align: center;
-            flex-direction: column;
-          }
-      
+        
 
         p{
             font-weight: 200;
@@ -28,10 +22,6 @@
             width: 500px;
             border: none;
             border-top: 0.5px solid gray;
-
-            @include mobile {
-                width: 300px;
-              }
         }
     }
     .titleContainer{
@@ -39,27 +29,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        @include mobile {
-            width: 100%;
-          }
 
         .title{
             display: flex;
             align-items: center;
             gap: 50px;
-
-            @include mobile {
-                flex-direction: column;
-                text-align: center;
-                gap: 20px;
-              }
             h1{
                 font-size: 95px;
                 font-weight: 100;
-
-                @include mobile {
-                    font-size: 36px;
-                  }
             }
             button{
                 width: 300px;
@@ -70,12 +47,6 @@
                cursor: pointer;
                font-size: 24px;
 
-               @include mobile {
-                font-size: 16px;
-                width: 150px;
-                height: 50px;
-              }
-
             }
             
             img{
@@ -83,10 +54,6 @@
                height: 100px;
                border-radius: 50px;
                object-fit: cover;
-               @include mobile {
-                width: 200px;
-                height: 50px;
-              }
             }
         }
     }
@@ -95,45 +62,18 @@
         display: flex;
         max-width: 1366px;
         margin: auto;
-
-        @include mobile {
-            flex-direction: column;
-            width: 100%;
-          }
-
         .box{
             padding: 35px;
             border: 0.5px solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-
-            @include mobile {
-                border: none;
-                align-items: center;
-                gap: 20px;
-                padding: 10px;
-              }
-              p {
-                @include mobile {
-                  display: none;
-                }
-            }
         }
         button{
             padding: 10px;
             background-color: orange;
             border: none;
             cursor: pointer;
-
-            @include mobile {
-                background-color: transparent;
-                border: 1px solid orange;
-                border-radius: 5px;
-                color: orange;
-                width: 50%;
-                padding: 5px;
-              }
 
         }
     }
