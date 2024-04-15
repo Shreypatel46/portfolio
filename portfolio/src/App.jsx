@@ -12,20 +12,20 @@ function App() {
   return (
     <>
       <div> 
-      <Cursor/>
-      <section id="Homepage">
-        <Navbar/>
-        <Hero/>
-      </section>
-      <section id="Service"> <Parallax type="services"/>  </section>
-      <section><Services/></section>
-      <section id ="Portfolio"><Parallax type ="portfolio"/></section>
-      <section id='Contact'>
-        <Contact/>
-      </section>
-      <section>
-        <Portfolio/>
-      </section>
+        <Cursor/>
+        <section id="Homepage">
+          <Navbar/>
+          <Hero/>
+        </section>
+        <section id="Service"> <Parallax type="services"/>  </section>
+        <section><Services/></section>
+        <section id ="Portfolio"><Parallax type ="portfolio"/></section>
+        <section id='Contact'>
+          <Contact/>
+        </section>
+        <section>
+          <Portfolio/>
+        </section>
       </div>
     </>
   )
